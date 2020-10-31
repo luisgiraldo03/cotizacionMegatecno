@@ -1,0 +1,101 @@
+
+mat-drawer-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 64px;
+  
+    @media screen and (max-width: 599px) {
+      top: 56px;
+    }
+  }
+  
+  mat-drawer-content {
+    height: 94.5%;
+  }
+  
+  #icons_container {
+    display: flex;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  #icons_container #slider {
+    display: flex;
+    position: absolute;
+    transition-duration: 0.4s;
+  }
+  
+  .close {
+    left: 0px;
+  }
+  
+  .open {
+    left: -32px;
+  }
+  
+  #icons_container #slider mat-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 2rem;
+  }
+  
+  .page_title {
+    margin-left: 10px;
+    transition-duration: 0.3s;
+  }
+  
+  .page_title_unloggin {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .page_title span {
+    display: none;
+    font-size: 1rem;
+  
+    @media screen and (max-width: 523px) {
+      display: block;
+    }
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  #actual_page {
+    @media screen and (max-width: 523px) {
+      display: none;
+    }
+  }
+  
+  .antiScrollingContainer {
+    height: auto;
+  }
+  #menu {
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  
+  mat-drawer-content {
+    padding: 20px;
+  }
+  
+  .card-video{
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  mat-list-item{
+    cursor: pointer;
+  }
+
+  mat-list-item:hover{
+    background-color: grey;
+  }

@@ -1,0 +1,36 @@
+#container-main {
+    width: 100%;
+  }
+
+  .container-left{
+    width: 30%;
+    float: left;
+    height: 550px;
+    overflow: auto;
+  }
+
+  .container-rigth{
+    width: 59%;
+    margin-left: 30%;
+    float: left;
+    height: 550px;
+    position: absolute;
+    overflow: auto;
+  }
+
+  .card{
+      background-color: #D7EDFA;
+      margin-top: 20px;
+  }
+
+  #filter{
+      width: 80%;
+  }
+
+  table{
+    width: 100%;
+  }
+
+  #input{
+    width: 40%;
+  }
